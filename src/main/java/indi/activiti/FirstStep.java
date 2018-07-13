@@ -45,7 +45,7 @@ class FirstStep {
         for (Resource r : conf.getDeploymentResources()) {
             System.out.println(r);
         }
-        runtimeService.startProcessInstanceByKey("Process 1");
+        // runtimeService.startProcessInstanceByKey("Process 1");
         System.out.println(managementService);
     }
 }
